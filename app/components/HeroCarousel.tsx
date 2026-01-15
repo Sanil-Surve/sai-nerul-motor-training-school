@@ -3,7 +3,7 @@
 import { useEffect, useState, useCallback } from "react";
 import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import hero1 from "../assets/sai_nerul_image_01.webp";
 import hero2 from "../assets/sai_nerul_motor_04.png";
 import hero3 from "../assets/sai_motor_image_03.png";
@@ -63,7 +63,7 @@ export const HeroCarousel = () => {
             ))}
 
             {/* Content */}
-            <div className="absolute inset-0 flex items-center justify-center">
+            {/* <div className="absolute inset-0 flex items-center justify-center">
                 <div className="container mx-auto px-4 text-center">
                     <div className="glass-dark rounded-2xl p-8 md:p-12 max-w-3xl mx-auto">
                         <h1 className="text-4xl md:text-6xl font-bold text-background mb-4">
@@ -87,7 +87,7 @@ export const HeroCarousel = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* Navigation Arrows */}
             <button
