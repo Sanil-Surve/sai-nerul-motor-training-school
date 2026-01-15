@@ -24,10 +24,10 @@ const Footer = () => {
                             </div>
                             <h3 className="text-lg font-semibold mb-2">Phone</h3>
                             <a
-                                href="tel:+919876543210"
+                                href="tel:+919892457369"
                                 className="text-background/70 hover:text-primary transition-colors"
                             >
-                                +91 98765 43210
+                                +91 9892457369
                             </a>
                         </div>
 
@@ -52,7 +52,7 @@ const Footer = () => {
                             </div>
                             <h3 className="text-lg font-semibold mb-2">Timings</h3>
                             <p className="text-background/70 text-sm">
-                                Mon - Sat: 7AM - 8PM
+                                Wed - Sat: 7AM - 8PM
                                 <br />
                                 Sunday: 8AM - 2PM
                             </p>
@@ -65,9 +65,7 @@ const Footer = () => {
                             </div>
                             <h3 className="text-lg font-semibold mb-2">Address</h3>
                             <p className="text-background/70 text-sm">
-                                Nerul East, Sector 19
-                                <br />
-                                Navi Mumbai - 400706
+                                Shop No. 1, Plot No. 10, Sector 19, Nerul, Navi Mumbai - 400706
                             </p>
                         </div>
                     </div>
@@ -75,7 +73,7 @@ const Footer = () => {
                     {/* CTA */}
                     <div className="mt-12 text-center">
                         <Button size="lg" className="gap-2" asChild>
-                            <a href="tel:+919876543210">
+                            <a href="tel:+919892457369">
                                 <Phone className="w-5 h-5" />
                                 Call to Book Your Lessons
                             </a>

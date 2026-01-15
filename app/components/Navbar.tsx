@@ -50,7 +50,7 @@ export const Navbar = () => {
                         </a>
                     ))}
                     <Button asChild>
-                        <a href="tel:+919876543210">Call Now</a>
+                        <a href="tel:+919892457369">Call Now</a>
                     </Button>
                 </div>
 
@@ -78,7 +78,7 @@ export const Navbar = () => {
                             </a>
                         ))}
                         <Button asChild className="w-full">
-                            <a href="tel:+919876543210">Call Now</a>
+                            <a href="tel:+919892457369">Call Now</a>
                         </Button>
                     </div>
                 </div>
